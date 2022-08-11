@@ -10,7 +10,11 @@ import Hero from '~/components/Hero.vue';
 export default {
     name: "IndexPage",
     components: { Hero },
-    loading: true
+     head() {
+      return {
+        script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
+      };
+    },
 }
 </script>
 
