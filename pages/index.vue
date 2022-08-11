@@ -1,18 +1,17 @@
 <template>
-  <Menu/>
+  <div>
+    <Hero/>
+  </div>
 </template>
 
 <script>
-import Menu from '~/components/Menu.vue';
+import Hero from '~/components/Hero.vue';
+
 export default {
     name: "IndexPage",
-    components: { Menu }
+    components: { Hero },
+    loading: true
 }
 </script>
 
 
-<style lang="scss">
-*{
-  font-family: 'Poppins', sans-serif;
-}
-</style>
