@@ -5,7 +5,7 @@
 			<div class="boxHero text-5xl h-44 leading-snug font-bold">
 				Rzeczy niemożliwe<br/>
 				robimy od ręki.<br/>
-				na cuda<span class=" bg-gray-400 pl-4 pr-4 ">trzeba poczekać </span>
+				Na cuda<span class=" bg-gray-400 pl-4 pr-4 ">trzeba poczekać </span>
 				<h4 class="podpis pl-14 text-xl font-medium">~ Radosław Dąbrowski</h4>
 			</div>
 
@@ -40,7 +40,7 @@ export default {
 
 <style lang="scss" scoped>
 	.boxHero{
-		width: 630px;
+		width: 640px;
 		position: absolute;
 		right: 10%;
 		top: 50%;
