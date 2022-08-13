@@ -1,7 +1,7 @@
 <template>
 	<div class="footer bg-gray-800">
 		<div class="footerTop flex justify-center items-center py-24">
-			<img class="invert w-2/6" src="~/assets/logo.png" alt="RADEC24.PL">
+			<img class="invert w-5/6 md:w-2/6" src="~/assets/logo.png" alt="RADEC24.PL">
 		</div>
 		<div class="text-center py-8">
 			<p class="text-white">
