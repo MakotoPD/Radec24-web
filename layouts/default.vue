@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="scroll-smooth">
 		<Menu />
 		<Nuxt />
 		<Footer/>
@@ -23,5 +23,7 @@ export default{
 body{
 	color: #2A2D34;
 	background-color: #F5F5F5;
+	overflow-y: scroll;
+	overflow-x: hidden
 }
 </style>
