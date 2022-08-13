@@ -12,7 +12,7 @@
 		</div>
 		<div class="div2 w-full relative h-96 md:h-screen md:h-screen">
 
-			<div class="boxImg absolute w-64 md:w-auto right-24 md:right-1/3 bottom-24 md:bottom-1/3">
+			<div class="boxImg absolute w-64 md:w-auto right-24 md:right-1/3 bottom-2/4 md:bottom-1/3">
 				<img :src="imageUrl" alt="car">
 				<div class="boxImgBg"></div>
 			</div>
