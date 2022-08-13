@@ -2,23 +2,23 @@
 	<div>
 		<div class="coopContainer container mx-auto pb-24">
 			<div class="my-cooperation flex items-center mb-8">
-				<hr class="hr w-24 mr-6">
+				<hr class="hr w-16 sm:w-24 mr-4 sm:mr-6">
 				<span class="text-2xl">Współpracuję z</span>
 			</div>
-			<div class="coopImages flex justify-center items-center">
-				<div class="w-2/12 px-4">
+			<div class="coopImages flex flex-wrap justify-center items-center">
+				<div class=" w-1/3 sm:w-2/12 px-4">
 					<img src="~/assets/companies/wim.png" alt="">
 				</div>
-				<div class="w-2/12 px-4">
+				<div class=" w-1/3 sm:w-2/12 px-4">
 					<img src="~/assets/companies/knauf.png" alt="">
 				</div>
-				<div class="w-2/12 px-4">
+				<div class=" w-1/3 sm:w-2/12 px-4">
 					<img src="~/assets/companies/atlas.png" alt="">
 				</div>
-				<div class="w-2/12 px-4">
+				<div class=" w-1/3 sm:w-2/12 px-4">
 					<img src="~/assets/companies/rigips.png" alt="">
 				</div>
-				<div class="w-2/12 px-4">
+				<div class=" w-1/3 sm:w-2/12 px-4">
 					<img src="~/assets/companies/kerakoll.png" alt="">
 				</div>
 

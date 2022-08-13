@@ -1,9 +1,9 @@
 <template>
-	<div class="flex justify-between py-4 px-4">
-		<div class="w-36">
+	<div class="flex justify-between w-full py-4 px-4">
+		<div class="sm:w-36 pr-12 sm:pr-0">
 			<img class="logo" src="~/assets/logo.png" alt="RADEC24.PL">
 		</div>
-		<nav class="nav">
+		<nav class="nav hidden md:block">
 			<NuxtLink to="/" class="px-2">Start</NuxtLink>
 			<NuxtLink to="/O-mnie" class="px-2">O mnie</NuxtLink>
 			<NuxtLink to="/Kontakt" class="px-2">Kontakt</NuxtLink>
@@ -11,6 +11,11 @@
 			<NuxtLink to="/Referencje" class="px-2">Referencje</NuxtLink>
 			<NuxtLink to="/Social-Media" class="px-2">Social Media</NuxtLink>
 		</nav>
+		<div class="md:hidden">
+			<button class="p-0 m-0">
+				<i class='bx bx-menu-alt-right bx-md'></i>
+			</button>
+		</div>
 	</div>
 </template>
 

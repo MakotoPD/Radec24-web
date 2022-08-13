@@ -23,6 +23,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    'boxicons/css/boxicons.min.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -97,5 +98,5 @@ export default {
       scrollTrigger: true
     }
   }
-  
+
 }

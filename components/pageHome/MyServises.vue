@@ -2,28 +2,28 @@
 	<div>
 		<div class="container mx-auto pb-24">
 			<div class="my-services flex items-center mb-8">
-				<hr class="hr w-24 mr-6">
+				<hr class="hr w-16 sm:w-24 mr-4 sm:mr-6">
 				<span class="text-2xl">Moje usługi</span>
 			</div>
-			<div class="w-full grid md:grid-cols-2">
+			<div class="w-full grid grid-cols-1 lg:grid-cols-2">
 				<div class="imageContainer">
-					<div class="box px-8 py-6 bg-red-300 font-medium z-50">
+					<div class="box relative w-10/12 sm:w-auto left-4 sm:-left-12 lg:left-0 px-8 py-6 bg-red-300 font-medium z-50">
 						<p>
 							Oferuję profesjonalne usługi budowlane przeznaczone dla klientów indywidualnych
 							oraz wszelkich inwestorów nastawionych na najwyższą jakość wykończenia.
 						</p>
 					</div>
-					<div class="image relative left-12 -top-16" style="z-index:-1;">
+					<div class="image relative w-10/12 sm:w-auto left-10 lg:left-12 -top-16" style="z-index:-1;">
 						<img class="w-full" src="~/assets/MyServises.png" alt="x">
 					</div>
 				</div>
-				<div class="ofertaContainer flex justify-center w-full h-full pt-8">
+				<div class="ofertaContainer lg:flex justify-center w-full h-full lg:pt-8">
 
-					<div class="text-left w-7/12">
+					<div class="text-left lg:w-7/12">
 						<h4 class="oferta mb-6 font-semibold">
 							Oferuję usługi takie jak:
 						</h4>
-						<ul class="list list-disc list-outside leading-loose pl-5">
+						<ul class="lg:text-sm xl:text-base list list-disc list-outside leading-loose pl-5">
 							<li>
 								sucha zabudowa (ścianki, sufity podwieszane z gk, amstrong, izolacja oraz zabudowa poddasza)
 							</li>
@@ -56,7 +56,7 @@
  
 				</div>
 			</div>
-			<div class="dystrybucja py-8 pl-12 w-4/5">
+			<div class="dystrybucja py-8 lg:pl-12 lg:w-4/5">
 				<p>
 					Jestem dystrybutorem oraz montażystą Sufitów Napinanych.
 					Jest to sufit wykonany z foli która za pomocą wysokiej temperatury powietrza zostaje napięta w specjalne profile.
