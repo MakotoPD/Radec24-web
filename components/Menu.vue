@@ -12,9 +12,29 @@
 			<NuxtLink to="/Social-Media" class="px-2">Social Media</NuxtLink>
 		</nav>
 		<div class="md:hidden">
-			<button class="p-0 m-0">
+			<button @click="menu()" class="p-0 m-0">
 				<i class='bx bx-menu-alt-right bx-md'></i>
 			</button>
+		</div>
+		<div class="mobileMenu absolute hidden -left-2 top-16 w-full bg-white z-50">
+			<div class="py-2 w-full text-center">
+				<NuxtLink to="/" class="px-2">Start</NuxtLink>
+			</div>
+			<div class="py-2 w-full text-center">
+				<NuxtLink to="/O-mnie" class="px-2">O mnie</NuxtLink>
+			</div>
+			<div class="py-2 w-full text-center">
+				<NuxtLink to="/Kontakt" class="px-2">Kontakt</NuxtLink>
+			</div>
+			<div class="py-2 w-full text-center">
+				<NuxtLink to="/Cennik" class="px-2">Cennik</NuxtLink>
+			</div>
+			<div class="py-2 w-full text-center">
+				<NuxtLink to="/Referencje" class="px-2">Referencje</NuxtLink>
+			</div>
+			<div class="py-2 w-full text-center">
+				<NuxtLink to="/Social-Media" class="px-2">Social Media</NuxtLink>
+			</div>
 		</div>
 	</div>
 </template>
@@ -25,6 +45,10 @@ export default {
 		this.animations()
 	},
 	methods: {
+		menu(){
+			document.querySelector('.mobileMenu').classList.toggle('hidden')
+		},
+
 		animations() {
 			const gsap = this.$gsap;
 			gsap.from('.logo', {y: -30, opacity: 0, duration: 1, ease: 'power4.inOut',})
