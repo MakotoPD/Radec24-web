@@ -13,7 +13,7 @@
 		<div class="div2 w-full relative h-screen">
 
 			<div class="boxImg absolute right-1/3 bottom-1/3">
-				<img src="~/assets/car.png" alt="car">
+				<img :src="imageUrl" alt="car">
 				<div class="boxImgBg"></div>
 			</div>
 
@@ -23,6 +23,12 @@
 
 <script>
 export default {
+	 props: {
+		imageUrl: {
+			type: String,
+			default: ''
+		}
+	},
 	mounted() {
 		this.boxtart()
 	},

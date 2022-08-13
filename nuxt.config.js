@@ -90,5 +90,12 @@ export default {
 
   generate: {
     fallback: true
+  },
+
+  gsap: {
+    extraPlugins: {
+      scrollTrigger: true
+    }
   }
+  
 }

@@ -1,0 +1,154 @@
+<template>
+	<div>
+		<div class="container mx-auto pb-24">
+			<div class="my-services flex items-center mb-8">
+				<hr class="hr w-24 mr-6">
+				<span class="text-2xl">Moje usługi</span>
+			</div>
+			<div class="w-full grid md:grid-cols-2">
+				<div class="imageContainer">
+					<div class="box px-8 py-6 bg-red-300 font-medium z-50">
+						<p>
+							Oferuję profesjonalne usługi budowlane przeznaczone dla klientów indywidualnych
+							oraz wszelkich inwestorów nastawionych na najwyższą jakość wykończenia.
+						</p>
+					</div>
+					<div class="image relative left-12 -top-16" style="z-index:-1;">
+						<img class="w-full" src="~/assets/MyServises.png" alt="x">
+					</div>
+				</div>
+				<div class="ofertaContainer flex justify-center w-full h-full pt-8">
+
+					<div class="text-left w-7/12">
+						<h4 class="oferta mb-6 font-semibold">
+							Oferuję usługi takie jak:
+						</h4>
+						<ul class="list list-disc list-outside leading-loose pl-5">
+							<li>
+								sucha zabudowa (ścianki, sufity podwieszane z gk, amstrong, izolacja oraz zabudowa poddasza)
+							</li>
+							<li>
+								gładzie gipsowe,
+							</li>
+							<li>
+								malowanie,
+							</li>
+							<li>
+								dekoracyjne panele 3D, cegiełki, beton architektoniczny,  tynki dekoracyjne itp.
+							</li>
+							<li>
+								elewacje, fasady,
+							</li>
+							<li>
+								prace hydrauliczne,
+							</li>
+							<li>
+								prace elektryczne,
+							</li>
+							<li>
+								układanie glazury, terakoty, gresu, wszelkie montaże łazienkowe, instalacje maty grzejnej, impregnację płytek, montaż luster, uszczelnienia.
+							</li>
+							<li>
+								transport powierzonego towaru na budowę.
+							</li>
+						</ul>
+					</div>
+ 
+				</div>
+			</div>
+			<div class="dystrybucja py-8 pl-12 w-4/5">
+				<p>
+					Jestem dystrybutorem oraz montażystą Sufitów Napinanych.
+					Jest to sufit wykonany z foli która za pomocą wysokiej temperatury powietrza zostaje napięta w specjalne profile.
+					Efektem tego jest piękny sufit przypominający taflę szkła. Możliwości sufitu są wielkie a ogranicza nas tylko wyobraźnia.
+				</p>
+			</div>
+		</div>
+	</div>
+</template>
+
+<script>
+export default {
+	mounted() {
+		this.animateOnScroll()
+	},
+	methods: {
+		animateOnScroll() {
+			this.$gsap.from('.my-services', {
+					x: '-50px',
+					opacity: 0,
+					duration: .2,
+					ease: 'Power1.easeInOut',
+					scrollTrigger: {
+						trigger: '.container',
+						start: "top center"
+					}
+			})
+
+			this.$gsap.from('.box', {
+					x: '20px',
+					opacity: 0,
+					duration: .2,
+					ease: 'Power1.easeInOut',
+					scrollTrigger: {
+						trigger: '.image',
+						start: "top center"
+					}
+			})
+
+			this.$gsap.from('.image', {
+					y: '-20px',
+					x: '-40px',
+					opacity: 0,
+					duration: .5,
+					ease: 'Power1.easeInOut',
+					scrollTrigger: {
+						trigger: '.image',
+						start: "center center"
+					}
+			})
+
+			this.$gsap.from('.oferta', {
+					y: '20px',
+					opacity: 0,
+					duration: .5,
+					ease: 'Power1.easeInOut',
+					scrollTrigger: {
+						trigger: '.ofertaContainer',
+						start: "top center"
+					}
+			})
+
+			this.$gsap.from('.list', {
+					x: '20px',
+					opacity: 0,
+					duration: .5,
+					ease: 'Power1.easeInOut',
+					scrollTrigger: {
+						trigger: '.oferta',
+						start: "bottom center"
+					}
+			})
+
+			this.$gsap.from('.dystrybucja', {
+					x: '20px',
+					opacity: 0,
+					duration: .5,
+					ease: 'Power1.easeInOut',
+					scrollTrigger: {
+						trigger: '.list',
+						start: "bottom center"
+					}
+			})
+
+		}
+	}
+}
+</script>
+
+
+<style lang="scss" scoped>
+hr.hr{
+	border: 1px solid #2A2D34;
+}
+</style>
