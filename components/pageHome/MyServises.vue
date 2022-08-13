@@ -20,7 +20,7 @@
 				<div class="ofertaContainer lg:flex justify-center w-full h-full lg:pt-8">
 
 					<div class="text-left lg:w-7/12">
-						<h4 class="oferta mb-6 font-semibold">
+						<h4 class="oferta pl-4 sm:pl-0 mb-6 font-bold sm:font-semibold">
 							Oferuję usługi takie jak:
 						</h4>
 						<ul class="lg:text-sm xl:text-base list list-disc list-outside leading-loose pl-5">
@@ -56,7 +56,7 @@
  
 				</div>
 			</div>
-			<div class="dystrybucja py-8 lg:pl-12 lg:w-4/5">
+			<div class="dystrybucja py-8 px-4 sm:px-0 lg:pl-12 lg:w-4/5">
 				<p>
 					Jestem dystrybutorem oraz montażystą Sufitów Napinanych.
 					Jest to sufit wykonany z foli która za pomocą wysokiej temperatury powietrza zostaje napięta w specjalne profile.
