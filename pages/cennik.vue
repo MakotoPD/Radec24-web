@@ -29,4 +29,9 @@
 
 <script setup>
 import text from '~/static/json/cennik.json'
+
+
+useHead({
+	title: 'RADEC24 - Cennik',
+})
 </script>

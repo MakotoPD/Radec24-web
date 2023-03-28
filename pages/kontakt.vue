@@ -36,6 +36,11 @@
 	</div>
 </template>
 
+<script setup>
+useHead({
+	title: 'RADEC24 - Kontakt',
+})
+</script>
 
 <style scoped>
 .boxImg{

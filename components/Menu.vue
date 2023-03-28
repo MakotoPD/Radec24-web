@@ -1,7 +1,7 @@
 <template>
 	<div id="menu" class="relative flex justify-between w-full py-4 px-4">
 		<div class="sm:w-36 pr-12 sm:pr-0">
-			<img class="logo" src="/img/logo/logo.png" alt="RADEC24.PL">
+			<nuxt-img loading="lazy" quality="90" class="logo" src="/img/logo/logo.png" alt="RADEC24.PL" />
 		</div>
 		<nav class="nav hidden md:flex flex-row">
 			<NuxtLink to="/" class="px-2 hover:font-semibold">Start</NuxtLink>
@@ -13,10 +13,10 @@
 				<p class="px-2">Social Media</p>
 				<div class="smList absolute w-[200%] top-5 right-0 px-4 py-6 rounded-xl bg-white shadow-lg">
 					<ul class="flex flex-col space-y-2">
-						<li class="cursor-pointer hover:font-semibold">Remonty i wykończenia wnętrz</li>
-						<li class="cursor-pointer hover:font-semibold">Sufity napinane</li>
-						<li class="cursor-pointer hover:font-semibold">Instagram</li>
-						<li class="cursor-pointer hover:font-semibold">Youtube</li>
+						<li class="cursor-pointer hover:font-semibold"><a href="https://www.facebook.com/RADEC24pl/">Remonty i wykończenia wnętrz</a> </li>
+						<li class="cursor-pointer hover:font-semibold"><a href="https://www.facebook.com/sufitynapinaneino/">Sufity napinane</a> </li>
+						<li class="cursor-pointer hover:font-semibold"><a href="https://www.instagram.com/radec24pl/">Instagram</a> </li>
+						<li class="cursor-pointer hover:font-semibold"><a href="https://www.youtube.com/@radec2472">Youtube</a> </li>
 					</ul>
 				</div>
 			</div>
@@ -43,7 +43,7 @@
 				<NuxtLink to="/Referencje" class="px-2">Referencje</NuxtLink>
 			</div>
 			<div class="py-2 w-full text-center">
-				<NuxtLink to="/Social-Media" class="px-2">Social Media</NuxtLink>
+				<p class="px-2">Social Media</p>
 			</div>
 		</div>
 	</div>

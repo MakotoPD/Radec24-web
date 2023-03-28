@@ -18,4 +18,9 @@
 import images from '~/static/json/references.json'
 
 let refs = images['data']
+
+
+useHead({
+	title: 'RADEC24 - Referencje',
+})
 </script>

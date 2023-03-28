@@ -43,6 +43,10 @@
 <script setup>
 import about from '~/static/json/about.json'
 
+useHead({
+	title: 'RADEC24 - O mnie',
+})
+
 </script>
 
 <style scoped>
