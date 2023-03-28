@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero imageUrl="/img/car.png"/>
+    <Hero imageUrl="/img/bg.png"/>
     <MyServises/>
     <Cooperation/>
   </div>
