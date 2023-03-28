@@ -1,0 +1,36 @@
+{
+	"data": [
+		{
+			"src": "/img/references/alteza.jpg",
+			"alt": "alteza"
+		},
+		{
+			"src": "/img/references/isover.jpg",
+			"alt": "isover"
+		},
+		{
+			"src": "/img/references/kerakoll.jpg",
+			"alt": "kerakoll"
+		},
+		{
+			"src": "/img/references/kmw.png",
+			"alt": "kmw"
+		},
+		{
+			"src": "/img/references/nucair.png",
+			"alt": "nucair"
+		},
+		{
+			"src": "/img/references/pgkim.jpg",
+			"alt": "pgkim"
+		},
+		{
+			"src": "/img/references/sirmed.jpg",
+			"alt": "sirmed"
+		},
+		{
+			"src": "/img/references/wosp.jpg",
+			"alt": "wosp"
+		}
+	]
+}

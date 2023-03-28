@@ -27,41 +27,39 @@
 	</div>
 </template>
 
-<script>
-export default {
-	mounted() {
-		this.animateOnScroll()
-	},
-	methods: {
-		animateOnScroll() {
-			this.$gsap.from('.my-cooperation', {
-					x: '-50px',
-					opacity: 0,
-					duration: .2,
-					ease: 'Power1.easeInOut',
-					scrollTrigger: {
-						trigger: '.coopContainer',
-						start: "top center"
-					}
-			})
+<script setup>
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 
-			this.$gsap.from('.coopImages', {
-					y: '50px',
-					opacity: 0,
-					duration: .7,
-					ease: 'Power1.easeInOut',
-					scrollTrigger: {
-						trigger: '.coopContainer',
-						start: "top center"
-					}
-			})
-
+onMounted(()=>{
+	gsap.registerPlugin(ScrollTrigger)
+	
+	gsap.from('.my-cooperation', {
+		x: '-50px',
+		opacity: 0,
+		duration: .2,
+		ease: 'Power1.easeInOut',
+		scrollTrigger: {
+			trigger: '.coopContainer',
+			start: "top center"
 		}
-	}
-}
+	})
+
+	gsap.from('.coopImages', {
+		y: '50px',
+		opacity: 0,
+		duration: .7,
+		ease: 'Power1.easeInOut',
+		scrollTrigger: {
+			trigger: '.coopContainer',
+			start: "top center"
+		}
+	})
+})
+
 </script>
 
-<style lang="scss" scoped>
+<style>
 hr.hr{
 	border: 1px solid #2A2D34;
 }

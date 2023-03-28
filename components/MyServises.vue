@@ -14,7 +14,7 @@
 						</p>
 					</div>
 					<div class="image relative w-10/12 sm:w-auto left-10 lg:left-12 -top-16" style="z-index:-1;">
-						<img class="w-full" src="~/assets/MyServises.png" alt="x">
+						<img class="w-full" src="/img/MyServises.png" alt="x">
 					</div>
 				</div>
 				<div class="ofertaContainer lg:flex justify-center w-full h-full lg:pt-8">
@@ -67,87 +67,88 @@
 	</div>
 </template>
 
-<script>
-export default {
-	mounted() {
-		this.animateOnScroll()
-	},
-	methods: {
-		animateOnScroll() {
-			this.$gsap.from('.my-services', {
-					x: '-50px',
-					opacity: 0,
-					duration: .2,
-					ease: 'Power1.easeInOut',
-					scrollTrigger: {
-						trigger: '.container',
-						start: "top center"
-					}
-			})
+<script setup>
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 
-			this.$gsap.from('.box', {
-					x: '20px',
-					opacity: 0,
-					duration: .2,
-					ease: 'Power1.easeInOut',
-					scrollTrigger: {
-						trigger: '.image',
-						start: "top center"
-					}
-			})
+onMounted(()=> {
 
-			this.$gsap.from('.image', {
-					y: '-20px',
-					x: '-40px',
-					opacity: 0,
-					duration: .5,
-					ease: 'Power1.easeInOut',
-					scrollTrigger: {
-						trigger: '.image',
-						start: "center center"
-					}
-			})
+	gsap.registerPlugin(ScrollTrigger); 
 
-			this.$gsap.from('.oferta', {
-					y: '20px',
-					opacity: 0,
-					duration: .5,
-					ease: 'Power1.easeInOut',
-					scrollTrigger: {
-						trigger: '.ofertaContainer',
-						start: "top center"
-					}
-			})
-
-			this.$gsap.from('.list', {
-					x: '20px',
-					opacity: 0,
-					duration: .5,
-					ease: 'Power1.easeInOut',
-					scrollTrigger: {
-						trigger: '.oferta',
-						start: "bottom center"
-					}
-			})
-
-			this.$gsap.from('.dystrybucja', {
-					x: '20px',
-					opacity: 0,
-					duration: .5,
-					ease: 'Power1.easeInOut',
-					scrollTrigger: {
-						trigger: '.list',
-						start: "bottom center"
-					}
-			})
-
+	gsap.from('.my-services', {
+		x: '-50px',
+		opacity: 0,
+		duration: .2,
+		ease: 'Power1.easeInOut',
+		scrollTrigger: {
+			trigger: '.container',
+			start: "top center"
 		}
-	}
-}
+	})
+
+
+	gsap.from('.box', {
+		x: '20px',
+		opacity: 0,
+		duration: .2,
+		ease: 'Power1.easeInOut',
+		scrollTrigger: {
+			trigger: '.image',
+			start: "top center"
+		}
+	})
+
+	gsap.from('.image', {
+		y: '-20px',
+		x: '-40px',
+		opacity: 0,
+		duration: .5,
+		ease: 'Power1.easeInOut',
+		scrollTrigger: {
+			trigger: '.image',
+			start: "center center"
+		}
+	})
+
+	gsap.from('.oferta', {
+		y: '20px',
+		opacity: 0,
+		duration: .5,
+		ease: 'Power1.easeInOut',
+		scrollTrigger: {
+			trigger: '.ofertaContainer',
+			start: "top center"
+		}
+	})
+
+	gsap.from('.list', {
+		x: '20px',
+		opacity: 0,
+		duration: .5,
+		ease: 'Power1.easeInOut',
+		scrollTrigger: {
+			trigger: '.oferta',
+			start: "bottom center"
+		}
+	})
+
+	gsap.from('.dystrybucja', {
+		x: '20px',
+		opacity: 0,
+		duration: .5,
+		ease: 'Power1.easeInOut',
+		scrollTrigger: {
+			trigger: '.list',
+			start: "bottom center"
+		}
+	})
+
+})
+
 </script>
 
 
-<style lang="scss" scoped>
+<style>
 hr.hr{
 	border: 1px solid #2A2D34;
 }
