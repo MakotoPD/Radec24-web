@@ -35,10 +35,6 @@ export default defineNuxtConfig({
 		'@nuxt/image-edge'			//nuxt-image https://v1.image.nuxtjs.org/
 	],
 
-
-	builder: 'vite',				//webpack alternative for nuxtjs/vuejs
-
-
 	sitemap: {
 		hostname: 'https://radec24.pl',
 	},
