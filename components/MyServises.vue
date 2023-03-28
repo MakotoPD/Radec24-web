@@ -20,9 +20,9 @@
 				<div class="ofertaContainer lg:flex justify-center w-full h-full lg:pt-8">
 
 					<div class="text-left lg:w-7/12">
-						<h4 class="oferta pl-4 sm:pl-0 mb-6 font-bold sm:font-semibold">
+						<p class="oferta pl-4 sm:pl-0 mb-6 font-bold sm:font-semibold">
 							Oferuję usługi takie jak:
-						</h4>
+						</p>
 						<ul class="lg:text-sm xl:text-base list list-disc list-outside leading-loose pl-5">
 							<li>
 								sucha zabudowa (ścianki, sufity podwieszane z gk, amstrong, izolacja oraz zabudowa poddasza)

@@ -17,7 +17,7 @@ export default defineNuxtConfig({
 				{ property: 'og:type', content: 'website'},
 				{ property: 'og:image', content: '/thumbnail.jpg'},
 
-				{ name: 'author', content: '@MakotoPD'},
+				{ name: 'author', content: '@MakotoPD'}
 			],
 			link: [
 				{rel: 'canonical', href: 'https://radec24.pl'},
@@ -50,4 +50,21 @@ export default defineNuxtConfig({
 	css: [
 		'@/assets/css/global.css',
 	],
+
+	render: {
+		csp: {
+			reportOnly: false,
+			addMeta: true,     // Add CSP meta-tag in addition to the HTTP header
+			hashAlgorithm: 'sha256',
+			unsafeInlineCompatiblity: true,
+			policies: {
+				'default-src': ["'self'", 'https:'],
+				'script-src': ["'self'", "'strict-dynamic'", 'https:'],
+				'style-src': ["'self'", "'strict-dynamic'", 'https:'],
+				'frame-src': [],
+				'object-src': ["'none'"],
+				'base-uri': ["'self"]
+			}
+		}
+	},
 })

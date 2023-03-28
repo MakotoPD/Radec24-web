@@ -7,19 +7,19 @@
 			</div>
 			<div class="coopImages flex flex-wrap justify-center items-center">
 				<div class=" w-1/3 sm:w-2/12 px-4">
-					<img src="~/assets/companies/wim.png" alt="">
+					<img src="~/assets/companies/wim.png" alt="company">
 				</div>
 				<div class=" w-1/3 sm:w-2/12 px-4">
-					<img src="~/assets/companies/knauf.png" alt="">
+					<img src="~/assets/companies/knauf.png" alt="company">
 				</div>
 				<div class=" w-1/3 sm:w-2/12 px-4">
-					<img src="~/assets/companies/atlas.png" alt="">
+					<img src="~/assets/companies/atlas.png" alt="company">
 				</div>
 				<div class=" w-1/3 sm:w-2/12 px-4">
-					<img src="~/assets/companies/rigips.png" alt="">
+					<img src="~/assets/companies/rigips.png" alt="company">
 				</div>
 				<div class=" w-1/3 sm:w-2/12 px-4">
-					<img src="~/assets/companies/kerakoll.png" alt="">
+					<img src="~/assets/companies/kerakoll.png" alt="company">
 				</div>
 
 			</div>
