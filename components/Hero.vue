@@ -56,7 +56,7 @@ onMounted(() => {
 		position: absolute;
 		left: 40px;
 		bottom: 40px;
-		background-color: #DB9B9B;
+		background-color: rgb(156 163 175);
 	}
 
 	.boxHero{

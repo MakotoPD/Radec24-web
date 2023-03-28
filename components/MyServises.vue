@@ -7,7 +7,7 @@
 			</div>
 			<div class="w-full grid grid-cols-1 lg:grid-cols-2">
 				<div class="imageContainer">
-					<div class="box relative w-10/12 sm:w-auto left-4 sm:-left-12 lg:left-0 px-8 py-6 bg-red-300 font-medium z-50">
+					<div class="box relative w-10/12 sm:w-auto left-4 sm:-left-12 lg:left-0 px-8 py-6 bg-gray-400 font-medium z-50">
 						<p>
 							Oferuję profesjonalne usługi budowlane przeznaczone dla klientów indywidualnych
 							oraz wszelkich inwestorów nastawionych na najwyższą jakość wykończenia.
