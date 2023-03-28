@@ -4,7 +4,7 @@
 			<nuxt-img loading="lazy" quality="90" class="logo" src="/img/logo/logo.png" alt="RADEC24.PL" />
 		</div>
 		<nav class="nav hidden md:flex flex-row">
-			<NuxtLink to="/" class="px-2 hover:font-semibold">Start</NuxtLink>
+			<NuxtLink rel='canonical' to="/" class="px-2 hover:font-semibold">Start</NuxtLink>
 			<NuxtLink to="/O-mnie" class="px-2 hover:font-semibold">O mnie</NuxtLink>
 			<NuxtLink to="/Kontakt" class="px-2 hover:font-semibold">Kontakt</NuxtLink>
 			<NuxtLink to="/Cennik" class="px-2 hover:font-semibold">Cennik</NuxtLink>

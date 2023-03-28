@@ -20,6 +20,7 @@ export default defineNuxtConfig({
 				{ name: 'author', content: '@MakotoPD'},
 			],
 			link: [
+				{rel: 'canonical', href: 'https://radec24.pl'},
 			  { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
 			  { rel: 'preconnect', href: 'https://fonts.googleapis.com'},
 			  { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
@@ -32,7 +33,7 @@ export default defineNuxtConfig({
 	modules: [
 		'@nuxtjs/tailwindcss',  	//css framework
 		'@unlighthouse/nuxt',		//lighthouse buided in page, port:5678
-		'@nuxt/image-edge'			//nuxt-image https://v1.image.nuxtjs.org/
+		'@nuxt/image-edge',			//nuxt-image https://v1.image.nuxtjs.org/
 	],
 
 	sitemap: {
