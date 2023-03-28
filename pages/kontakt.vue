@@ -5,21 +5,21 @@
 
 				<div class="boxHero text-2xl sm:text-3xl xl:text-5xl h-44 leading-snug xl:leading-snug font-bold">
 					Kontakt
-					<h4 class="podpis mt-4 sm:text-lg text-base font-medium max-w-[36rem]">
+					<div class="podpis mt-4 sm:text-lg text-base font-medium max-w-[36rem]">
 						<p>RADEC24 REMONTY I WYKOŃCZENIA WNĘTRZ</p>
 						<p>RADOSŁAW DĄBROWSKI</p>
-					</h4>
-					<h4 class="podpis mt-4 sm:text-lg text-base font-medium max-w-[36rem]">
+					</div>
+					<div class="podpis mt-4 sm:text-lg text-base font-medium max-w-[36rem]">
 						<p>Ludzisko 56</p>
 						<p>88-160 Janikowo</p>
-					</h4>
+					</div>
 
-					<h4 class="podpis mt-4 sm:text-lg text-base font-medium max-w-[36rem]">
+					<div class="podpis mt-4 sm:text-lg text-base font-medium max-w-[36rem]">
 						<p>tel. 737 444 950</p>
 						<p>NIP 5562323231</p>
 						<p>REGON 361811180</p>
 						<p>E-MAIL radec24@wp.pl</p>
-					</h4>
+					</div>
 
 				</div>
 

@@ -5,9 +5,9 @@
 
 				<div class="boxHero text-2xl sm:text-3xl xl:text-5xl h-44 leading-snug xl:leading-snug font-bold">
 					O mnie
-					<h4 class="podpis mt-4 sm:text-lg text-base font-medium max-w-[36rem]">
+					<h1 class="podpis mt-4 sm:text-lg text-base font-medium max-w-[36rem]">
 						{{ about.desc }}
-					</h4>
+					</h1>
 				</div>
 
 			</div>
