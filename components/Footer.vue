@@ -23,6 +23,6 @@
 	}
 
 	.footerTop{
-		background-image: url('/img/Rectangle 4.png');
+		background-image: url('/img/bgFooter.png');
 	}
 </style>
