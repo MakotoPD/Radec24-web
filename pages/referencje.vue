@@ -8,8 +8,7 @@
 			<div class="flex flex-wrap flex-col items-center md:items-start md:flex-row space-x-4 space-y-4">
 				<a v-for="comp in refs" :href="comp.src" target="_blank" class="w-8/12 md:w-64">
 					<img class="mx-auto md:w-64" :src="comp.src" :alt="comp.alt">
-				</a>
-				
+				</a>	
 			</div>
 		</div>
 	</div>
@@ -19,5 +18,4 @@
 import images from '~/static/json/references.json'
 
 let refs = images['data']
-console.log(refs)
 </script>
