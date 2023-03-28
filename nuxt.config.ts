@@ -32,7 +32,7 @@ export default defineNuxtConfig({
 	modules: [
 		'@nuxtjs/tailwindcss',  	//css framework
 		'@unlighthouse/nuxt',		//lighthouse buided in page, port:5678
-		'@nuxt/image-edge',			//nuxt-image https://v1.image.nuxtjs.org/
+		'@nuxt/image-edge'			//nuxt-image https://v1.image.nuxtjs.org/
 	],
 
 

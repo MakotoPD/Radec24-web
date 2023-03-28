@@ -7,7 +7,7 @@
 		<div class="container mx-auto mb-16">
 			<div class="flex flex-wrap flex-col items-center md:items-start md:flex-row space-x-4 space-y-4">
 				<a v-for="comp in refs" :href="comp.src" target="_blank" class="w-8/12 md:w-64">
-					<img class="mx-auto md:w-64" :src="comp.src" :alt="comp.alt">
+					<nuxt-img class="mx-auto md:w-64" quality="10" loading="lazy" :src="comp.src" :alt="comp.alt" />
 				</a>	
 			</div>
 		</div>
