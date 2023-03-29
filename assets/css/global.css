@@ -5,6 +5,7 @@ p, a, h1, h2, h3, h4, h5, h6 {
 body{
 	background: #ebe7e7;
 	font-family: 'Poppins', sans-serif;
+  font-display: sans-serif;
 	overflow-x: hidden;
 }
 
