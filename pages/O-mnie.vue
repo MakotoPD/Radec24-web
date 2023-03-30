@@ -24,14 +24,16 @@
 			</div>
 		</div>
 		<div class="mb-16">
-			<div class="container mx-auto flex flex-col space-y-2">
-				<p>{{ about.first }}</p>
-				<p>{{ about.second }}</p>
+			<div class="container mx-auto flex flex-col space-y-6">
+				<p v-for="x in about.one" >{{ x.x }}</p>
 				<ul class="list-disc list-inside">
 					<li v-for="li in about.list">{{ li.text }}</li>
 				</ul>
-				<p>{{ about.fifth }}</p>
-				<p>{{ about.sixth }}</p>
+				<p v-for="x in about.two">{{ x.x }}</p>
+				<ul class="list-disc list-inside">
+					<li v-for="li in about.listtwo">{{ li.text }}</li>
+				</ul>
+				<p v-for="x in about.three">{{ x.x }}</p>
 
 			</div>
 		</div>
