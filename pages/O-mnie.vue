@@ -24,11 +24,9 @@
 			</div>
 		</div>
 		<div class="mb-16">
-			<div class="container mx-auto flex flex-col space-y-6">
+			<div class="container mx-auto flex flex-col space-y-2">
 				<p>{{ about.first }}</p>
 				<p>{{ about.second }}</p>
-				<p>{{ about.third }}</p>
-				<p>{{ about.fourth }}</p>
 				<ul class="list-disc list-inside">
 					<li v-for="li in about.list">{{ li.text }}</li>
 				</ul>
