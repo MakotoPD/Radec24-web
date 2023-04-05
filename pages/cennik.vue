@@ -13,7 +13,7 @@
 				<hr class="hr w-16 sm:w-24 mr-4 sm:mr-6">
 				<span class="text-2xl">{{ text.title }}</span>
 			</div>
-			<div class="flex flex-col space-y-4 mb-8">
+			<div class="flex flex-col space-y-4 mb-8 px-3">
 				<p>{{ text.first }}</p>
 				<p>{{ text.second }}</p>
 				<p>{{ text.third }}</p>

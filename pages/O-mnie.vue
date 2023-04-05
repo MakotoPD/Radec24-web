@@ -13,7 +13,7 @@
 			</div>
 			<div class="div2 w-full relative h-96 md:h-screen">
 
-				<div class="boxImg absolute w-60 md:w-auto right-24 md:right-1/3 bottom-2/4 md:bottom-1/3">
+				<div class="boxImg absolute w-60 md:w-auto right-24 md:right-1/3 bottom-1/3 md:bottom-1/3">
 					<img src="/img/car_omnie.png" alt="car">
 					<div class="boxImgBg"></div>
 					<div class="checkedCompany">
@@ -24,17 +24,21 @@
 			</div>
 		</div>
 		<div class="mb-16">
-			<div class="container mx-auto flex flex-col space-y-6">
+			<div class="container mx-auto flex flex-col space-y-6 px-3">
 				<p v-for="x in about.one" >{{ x.x }}</p>
 				<ul class="list-disc list-inside">
 					<li v-for="li in about.list">{{ li.text }}</li>
 				</ul>
 				<p v-for="x in about.two">{{ x.x }}</p>
+				<p v-for="x in about.three">{{ x.x }}</p>
+				<div class="w-full flex justify-center">
+					<nuxt-img src="/img/card.png" quality="20" class="md:w-1/2" loading="lazy" alt="Kontakt" />
+				</div>
+				<p v-for="x in about.four">{{ x.x }}</p>
 				<ul class="list-disc list-inside">
 					<li v-for="li in about.listtwo">{{ li.text }}</li>
 				</ul>
-				<p v-for="x in about.three">{{ x.x }}</p>
-
+				<p v-for="x in about.five">{{ x.x }}</p>
 			</div>
 		</div>
 	</div>

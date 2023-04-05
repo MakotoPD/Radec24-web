@@ -6,21 +6,21 @@
 				<span class="text-2xl">Współpracuję z</span>
 			</div>
 			<div class="coopImages flex flex-wrap justify-center items-center">
-				<div class=" w-1/3 sm:w-2/12 px-4">
+				<NuxtLink to="http://wim-chb.pl/" target="_blank" class=" w-1/3 sm:w-2/12 px-4">
 					<img src="~/assets/companies/wim.png" alt="company">
-				</div>
-				<div class=" w-1/3 sm:w-2/12 px-4">
+				</NuxtLink>
+				<NuxtLink to="https://knauf.pl/" target="_blank" class=" w-1/3 sm:w-2/12 px-4">
 					<img src="~/assets/companies/knauf.png" alt="company">
-				</div>
-				<div class=" w-1/3 sm:w-2/12 px-4">
+				</NuxtLink>
+				<NuxtLink to="https://www.atlas.com.pl/" target="_blank" class=" w-1/3 sm:w-2/12 px-4">
 					<img src="~/assets/companies/atlas.png" alt="company">
-				</div>
-				<div class=" w-1/3 sm:w-2/12 px-4">
+				</NuxtLink>
+				<NuxtLink to="https://www.rigips.pl/" target="_blank" class=" w-1/3 sm:w-2/12 px-4">
 					<img src="~/assets/companies/rigips.png" alt="company">
-				</div>
-				<div class=" w-1/3 sm:w-2/12 px-4">
+				</NuxtLink>
+				<NuxtLink to="https://www.kerakoll.com/pl/" target="_blank" class=" w-1/3 sm:w-2/12 px-4">
 					<img src="~/assets/companies/kerakoll.png" alt="company">
-				</div>
+				</NuxtLink>
 
 			</div>
 		</div>

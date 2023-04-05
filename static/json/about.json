@@ -43,13 +43,15 @@
 		}
 	],
 
-	"two": [
+	"three": [
 		{
 			"x": "W branży budowlanej działam nieustannie od 1997r, dzięki czemu udało mi się wypracować takie standardy pracy, że nawet najbardziej skomplikowane zlecenie jestem w stanie wykonać precyzyjnie i fachowo."
 		},
 		{
 			"x": "Zajmuje się kompleksowym wykończeniem wnętrz oraz adaptacją poddaszy. Od 29.03.2017 jestem oficjalnym dystrybutorem sufitów napinanych. Wykonuję także prace wykończeniowe na zewnątrz budynków. Jestem wykwalifikowanym i doświadczonym budowlańcem, dla którego budowlanka jest pasją, a nie kolejną pracą, do której trzeba przyjść. Szczególną uwagę zwracam na jakość i wysoki standard wykonania zleceń. Prace w biurowcach prowadzę o takiej porze, aby państwo mogli swobodnie zająć się swoją pracą w ciągu dnia. Dotrzymuję terminów realizacji o ile nie zostają mi narzucone dodatkowe prace. Na podstawie ślepego kosztorysu tworzę szybką wycenę. Pracuję tylko na profesjonalnym sprzęcie niskonapięciowym (18V) zgodnym z zasadami BHP co przekłada się na brak ryzyka wypadkowego na Waszej inwestycji."
-		},
+		}
+	],
+	"four": [
 		{
 			"x": "Specjalizuje się w izolacji oraz zabudowie poddaszy."
 		},
@@ -78,7 +80,7 @@
 			"text": "oszczędność mas – redukcja zużycia masy konstrukcyjnej o 23%, masy finiszowej – o 15%!"
 		}
 	],
-	"three": [
+	"five": [
 		{
 			"x": "Systemy suchej zabudowy to płyty gipsowe, profile, szpachle, jak również szereg różnych wieszaków, łączników i innych elementów montażowych."
 		},
