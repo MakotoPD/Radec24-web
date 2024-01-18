@@ -13,6 +13,7 @@
     "@unlighthouse/nuxt": "^0.4.9",
     "@vitest/ui": "^0.29.7",
     "nuxt": "^3.3.2",
+    "nuxt-gtag": "^1.1.2",
     "sitemap": "^7.1.1",
     "vitest": "^0.29.7"
   },

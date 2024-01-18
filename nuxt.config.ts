@@ -34,6 +34,7 @@ export default defineNuxtConfig({
 		'@nuxtjs/tailwindcss',  	//css framework
 		'@unlighthouse/nuxt',		//lighthouse buided in page, port:5678
 		'@nuxt/image-edge',			//nuxt-image https://v1.image.nuxtjs.org/
+		'nuxt-gtag',				//tag
 	],
 
 	sitemap: {
@@ -45,6 +46,10 @@ export default defineNuxtConfig({
 		scanner: {
 		  device: 'desktop', // simulate a desktop device
 		}
+	},
+
+	gtag: {
+		id: 'G-C2BZNE1RGS'
 	},
 	
 	css: [
