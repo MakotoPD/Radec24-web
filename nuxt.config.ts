@@ -32,6 +32,10 @@ export default defineNuxtConfig({
 					async: true,
 					src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7443176231652937',
 					crossorigin: "anonymous"
+				},
+				{
+					type: 'application/ld+json',
+					children: '{"@context": "https://schema.org","@type": "Corporation","name": "Radec24","alternateName": "RADEC24","url": "https://radec24.pl","logo": "https://radec24.pl/img/logo/logo.png","sameAs": ["https://www.facebook.com/RADEC24pl","https://www.instagram.com/RADEC24pl","https://radec24.pl"], "keywords": "redec24, firma, domy modułowe, domy, modułowe, moduł, remontowo, budowlana, remonty, wykończenia, wykonczenia, wnętrz, inowroclaw, inowrocław, Inowroclaw, Inowrocław torun, toruń, Torun, Toruń, bydgoszcz, Bydgoszcz, kompleksowo, adaptacje, adaptacja, poddasze, poddaszy, wykonanie, sufity, napinane, Remonty i wykończenia wnętrz inowrocław, kompleksowo wykonane remonty, adaptacja poddaszy, sufity napinane"}'
 				}
 			]
 		},
