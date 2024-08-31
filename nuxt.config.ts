@@ -26,6 +26,13 @@ export default defineNuxtConfig({
 			  { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
 			  { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Poppins' },
 			  { rel: 'stylesheet', href: 'https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' } 
+			],
+			script: [
+				{
+					async: true,
+					src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7443176231652937',
+					crossorigin: "anonymous"
+				}
 			]
 		},
 	},
