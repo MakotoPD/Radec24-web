@@ -9,6 +9,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/devtools": "^1.6.0",
     "@nuxt/image-edge": "^1.0.0-27991759.1a5eea1",
     "@unlighthouse/nuxt": "^0.4.9",
     "@vitest/ui": "^0.29.7",
